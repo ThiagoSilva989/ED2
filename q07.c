@@ -5,22 +5,22 @@ int main(void)
 {
 
     int n[10];
-    int c, l;
+    int c, r;
 
     for (c = 0; c < 10; c++)
     {
         printf("Digite um numero: ");
         scanf("%i", &n[c]);
     }
-    l = n[0];
+    r = n[0];
 
-    for (c = 10; c < 1; c--)
+    for (c = 1; c < 10; c++)
     {
-        if (n[c] < l)
+        if (n[c] < r)
         {
-            l = n[c];
+            r = n[c];
         }
     }
-    printf("O menor elemento: %i", l);
+    printf("O menor elemento: %i", r);
     return 0;
 }

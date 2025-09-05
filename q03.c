@@ -17,7 +17,7 @@ int main(void)
     }
     m = s / 10;
 
-    printf("a soma dos 10 numeros é: %i", m);
+    printf("a media dos 10 numeros é: %i", m);
 
     return 0;
 }
